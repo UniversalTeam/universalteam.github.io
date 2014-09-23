@@ -1,0 +1,43 @@
+/* Homepage ----------------*/
+#header {
+    background: url("../img/Header.png") repeat-x;
+    height: 100px;
+    min-width: 991px;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+#vesuvius {
+    background: #e9e3d8;
+    position: relative;
+    min-width: 991px;
+}
+
+#topPanel {
+    height: 520px;
+    width: 100%;
+    min-width: 991px;
+    margin-bottom: 14px;
+    background: #181716;
+}
+
+#header-content {
+    margin: 0 auto;
+    width: 991px;
+    position: relative;
+    z-index: 5;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parents;
+}
+
+/* General -----------------*/
+.left {
+    float: left!important;
+}
+
+.right {
+    float: right!important;
+}
