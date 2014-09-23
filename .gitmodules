@@ -1,0 +1,3 @@
+[submodule "sfdcss"]
+	path = sfdcss
+	url = https://github.com/SeamusFD/SeamusFDsCSSAdditions.git
