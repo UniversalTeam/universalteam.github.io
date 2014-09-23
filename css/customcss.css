@@ -1,43 +1,31 @@
 /* Homepage ----------------*/
-#header {
-    background: url("../img/Header.png") repeat-x;
-    height: 100px;
-    min-width: 991px;
-    margin-bottom: 12px;
-    position: relative;
-}
-
-#vesuvius {
-    background: #e9e3d8;
-    position: relative;
-    min-width: 991px;
-}
-
-#topPanel {
-    height: 520px;
+#section-header {
     width: 100%;
-    min-width: 991px;
-    margin-bottom: 14px;
-    background: #181716;
-}
-
-#header-content {
-    margin: 0 auto;
-    width: 991px;
+    height: 110px;
+    margin:  0 auto 15px auto;
     position: relative;
-    z-index: 5;
+    z-index: 10;
 }
 
-li {
-  display: list-item;
-  text-align: -webkit-match-parents;
+.top-nav {
+    width: 100%;
+    height: 70px;
 }
 
-/* General -----------------*/
-.left {
-    float: left!important;
+.fill {
+    width: 100%;
+    height: 70px;
+    background: rgba(34,44,55,0.9);
+    position: absolute;
+    z-index: 14;
+    top: 0;
 }
 
-.right {
-    float: right!important;
+.leftbanner {
+    width: 564px;
+    height: 140px;
+    display: block;
+    position: absolute;
+    right: 80%;
+    background: url("../img/sidebanner.png") 0 0 no-repeat;
 }
